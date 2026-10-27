@@ -34,7 +34,7 @@ $(document).ready(function() {
     { text: "startups", weight: 6 },
     { text: "Web Development", weight: 9 },
     { text: "Work that Reconnects", weight: 6 },
-    { text: "magic", weight: 2 }
+    { text: "magic", weight: 2, color: "#f76262" }
   ];
 
   $('#tag-cloud').jQCloud(words, { autoResize: true, delay: 10 });
