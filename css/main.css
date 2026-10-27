@@ -1,0 +1,77 @@
+a {
+  color: #b2b3eb;
+}
+
+a:hover {
+  color: #c5c6f7;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#header  {
+  border-bottom: 1px solid gray;
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+#me {
+/*  height: 100%;
+  max-width: 800px;
+  width: 100%;
+*/
+}
+
+#facebook-col,
+#twitter-col,
+#linkedin-col,
+#medium-col {
+  min-height: 455px;
+  overflow: auto;
+}
+
+#facebook-col {
+  background-color: #3a5a99;
+  color: white;
+}
+
+#twitter-col {
+  background-color: #55acee;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#linkedin-col {
+  background-color: #0076b2;
+  color: white;
+}
+
+#medium-col {
+  background-color: black;
+  color: white;
+}
+
+#wizard-row {
+  background-color: #2f0d2f;
+  color: white;
+  min-height: 455px;
+  position: relative;
+}
+
+#tag-cloud {
+  min-height: 400px;
+  position: relative;
+}
+div.jqcloud span.w10 { color: #fff; font-size: 400%; }
+div.jqcloud span.w9 { color: #eee; font-size: 360%; }
+div.jqcloud span.w8 { color: #ddd; font-size: 330%; }
+div.jqcloud span.w7 { color: #ccc; font-size: 310%; }
+div.jqcloud span.w6 { color: #bbb; font-size: 275%; }
+div.jqcloud span.w5 { color: #aaa; font-size: 240%; }
+div.jqcloud span.w4 { color: #999; font-size: 210%; }
+div.jqcloud span.w3 { color: #888; font-size: 170%; }
+div.jqcloud span.w2 { color: #f76262; font-size: 130%; }
+div.jqcloud span.w1  { color: #666; font-size: 100%; }
