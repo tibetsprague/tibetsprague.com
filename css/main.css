@@ -1,17 +1,33 @@
 a {
-  color: #b2b3eb;
+  color: #ffb8ab;
 }
 
 a:hover {
-  color: #c5c6f7;
+  color: #f6cac2;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
+  background-color: #dddddd; 
+}
+
+ul {
+  letter-spacing: 1px;
+  font-size: 15px;	
 }
 
 #header  {
   border-bottom: 1px solid gray;
+  background-image: url(/images/header_bg.jpg?v=1);
+  background-size: cover;
+}
+
+#header h1 {
+  font-size: 3vw;
+}
+
+#header h3 {
+  font-size: 2vw;
 }
 
 .row {
@@ -25,12 +41,33 @@ body {
 */
 }
 
-#facebook-col,
-#twitter-col,
-#linkedin-col,
-#medium-col {
-  min-height: 455px;
+.sections {
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.section-container {
   overflow: auto;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .section-container {  
+    min-height: unset;  
+  }
+  
+  #header h1 {
+    font-size: 36px;
+  }
+  
+  #header h3 {
+    font-size: 24px;
+  }
+}
+
+.section-container h3 {
+  display: flex;
+  align-items: center;
 }
 
 #facebook-col {
@@ -42,6 +79,11 @@ body {
   background-color: #55acee;
   color: white;
   padding-bottom: 20px;
+}
+
+.mastodon-logo {
+  width: 38px;
+  padding: 5px;
 }
 
 #linkedin-col {
